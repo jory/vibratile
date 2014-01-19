@@ -2,11 +2,12 @@
 
 angular.module('vibratileApp')
   .controller('MainCtrl', function ($scope, $window) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.vibrations = [
+      { duration: '1'},
+      { duration: '10'},
+      { duration: '100'},
+      { duration: '1000'},
+      { duration: '10000'},
+      { duration: 'Hold to buzz'}
     ];
-
-    $window.navigator.vibrate(1000);
   });
