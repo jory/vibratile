@@ -8,3 +8,10 @@
     <span ng-if="isPurring" ng-click="stopPurring()" class="btn btn-danger">Stopping already?</span>
   </p>
 </div>
+
+Duration: <input type="text" ng-model="purrLength">
+<slider floor="0" ceiling="10000" step="50" precision="2" ng-model="purrLength"></slider>
+<br/>
+
+Delay: <input type="text" ng-model="purrDelay">
+<slider floor="0" ceiling="10000" step="50" precision="2" ng-model="purrDelay"></slider>

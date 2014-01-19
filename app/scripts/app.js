@@ -4,7 +4,8 @@ angular.module('vibratileApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'uiSlider'
 ])
   .config(function ($routeProvider) {
     $routeProvider
