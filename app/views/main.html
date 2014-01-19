@@ -4,7 +4,7 @@
 
 <div class="jumbotron">
   <p>
-    <span ng-repeat="vibration in vibrations"
-       class="btn btn btn-success">{{vibration.duration}}</span>
+    <span ng-if="!isPurring" ng-click="startPurring()" class="btn btn-success">Purr baby</span>
+    <span ng-if="isPurring" ng-click="stopPurring()" class="btn btn-danger">Stopping already?</span>
   </p>
 </div>
