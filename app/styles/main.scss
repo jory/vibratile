@@ -56,11 +56,7 @@ body {
 .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
-
-    @media (orientation: portrait) {
-      display: block;
-      margin: 14px auto;
-    }
+    margin: 10px auto 0;
 }
 
 /* Supporting marketing content */
