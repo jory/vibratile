@@ -12,8 +12,8 @@ angular.module('vibratileApp')
     var _purr;
 
     $scope.isPurring = false;
-    $scope.purrLength = 300;
-    $scope.purrDelay = 1200;
+    $scope.purrLength = 150;
+    $scope.purrDelay = 450;
 
     $scope.startPurring = function () {
       $scope.isPurring = true;
