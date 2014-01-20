@@ -1,0 +1,4 @@
+{
+  "name": "angular-slider",
+  "main": ["angular-slider.js", "angular-slider.css"]
+}

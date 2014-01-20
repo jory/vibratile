@@ -1,0 +1,17 @@
+{
+  "name": "angular-slider",
+  "main": [
+    "angular-slider.js",
+    "angular-slider.css"
+  ],
+  "homepage": "https://github.com/jorygraham/angular-slider",
+  "_release": "f14ab85cb9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f14ab85cb906a2dc7c627c5792d8d2f637ecec13"
+  },
+  "_source": "git://github.com/jorygraham/angular-slider.git",
+  "_target": "master",
+  "_originalSource": "jorygraham/angular-slider"
+}
